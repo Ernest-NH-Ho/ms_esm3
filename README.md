@@ -43,9 +43,13 @@ Download and install DSSP from the official releases:
 Please refer to `backend_modification.md` for detailed backend setup instructions.
 
 ## Usage
-
+*Input file preparation*
 1. Place the input pdb files in the "input_pdb/"
 2. Place the input csv files in UniProt format in "input_csv"
+
+*Run*
+./lazy_run.sh --file_name demo --num_seeds 30 --num_cpu 4
+./lazy_run.sh --help
 
 ## Citation
 tbc
