@@ -68,8 +68,8 @@ The CSV file must contain the following fields:
 ### Running the Analysis
 
 ```bash
-./lazy_run.sh --file_name demo --num_seeds 30 --num_cpu 4
-./lazy_run.sh --help
+./run.sh --file_name demo --num_seeds 30 --num_cpu 4
+./run.sh --help
 ```
 
 #### Script Execution Order

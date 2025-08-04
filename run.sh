@@ -26,6 +26,7 @@ if [ $# -eq 0 ]; then
 fi
 
 file_type="csv"
+folder="scripts"
 num_seeds=3
 num_cpu=4
 
@@ -62,11 +63,11 @@ done
 ###########################################################
 # Create dssp file
 echo "1. Run dssp"
-./1_dssp.sh
+./$folder/1_dssp.sh
 
 # # Create prompt for esm3
 # echo "2. Prepare prompts from dssp outputs"
-# PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 2_processData.py -file_name $file_name -file_type $file_type
+# PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python $folder/2_processData.py -file_name $file_name -file_type $file_type
 
 for ((rs = 41; rs <41+num_seeds; rs++)); do
     if [ ! -e "esm3_embeddings/rs${rs}" ]; then
@@ -82,7 +83,7 @@ done
 
 ## Generate mutants using esm3
 echo "3. Starting running esm3"
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 3_runESM3_emb.py -file_name $file_name -num_seeds $num_seeds
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python $folder/3_runESM3_emb.py -file_name $file_name -num_seeds $num_seeds
 
 ## Calculate the difference in embedding and epistasis
 echo "4. Calculating dataset from embeddings"
@@ -91,4 +92,4 @@ echo "4. Calculating dataset from embeddings"
 #PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 4_calcDataset.py -file_name $file_name -num_seeds 15 -num_cpu $num_cpu
 # PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 4_calcDataset.py -file_name $file_name -num_seeds 20 -num_cpu $num_cpu
 #PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 4_calcDataset.py -file_name $file_name -num_seeds 25 -num_cpu $num_cpu
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python 4_calcDataset.py -file_name $file_name -num_seeds 30 -num_cpu $num_cpu
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python $folder/4_calcDataset.py -file_name $file_name -num_seeds 30 -num_cpu $num_cpu
