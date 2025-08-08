@@ -32,7 +32,7 @@ Create a new conda environment with Python 3.12 and install the required depende
 1. Obtain the ESM3 model using the official public license from HuggingFace:
    - Visit: https://huggingface.co/EvolutionaryScale/esm3-sm-open-v1
    - Follow the licensing requirements and download instructions
-2. Save the model as `esm_model/esm3.pth` in your project directory
+2. Save the model as `esm_model/esm3.pth`
 
 ### Step 3: Install DSSP
 Download and install DSSP from the official releases:
