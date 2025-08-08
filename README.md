@@ -56,7 +56,7 @@ The CSV file must contain the following fields:
 | `Entry` | Sequence ID |
 | `Sequence_final` | Valid amino acid sequence string for ESM3 input |
 | `Length_final` | Length of the sequence in `Sequence_final` |
-| `DSSP_start` | Position of the first PDB residue in `Sequence_final` (0 if sequences are identical, must be ≥ 0) |
+| `DSSP_start` | Position of the first residue of `Sequence_final` in PDB (0 if sequences are identical, must be ≥ 0) |
 | `Act_bind_motif_sites` | Critical residues in `Sequence_final` (first residue has index 1) |
 
 **Important Notes:**
