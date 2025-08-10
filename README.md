@@ -60,7 +60,7 @@ The CSV file must contain the following fields:
 | `Act_bind_motif_sites` | Critical residues in `Sequence_final` (first residue has index 1) |
 
 **Important Notes:**
-- Make sure the PDB file name has is AF-<Entry>-F1-model_v4.pdb 
+- Make sure the PDB file name has is AF-{Entry}-F1-model_v4.pdb 
 - Make sure each sequence ID is unique in the csv
 - Do not include sequences over 1,650 amino acids for ESM3 input
 - Ensure CSV sequences are identical to PDB sequences after accounting for the shifts in "DSSP_start"
