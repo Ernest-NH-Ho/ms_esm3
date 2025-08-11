@@ -73,7 +73,7 @@ The CSV file must contain the following fields:
 ```
 
 #### Script Execution Order
-When running `./lazy_run.sh`, the following scripts execute in chronological order:
+When running `./run.sh`, the following scripts execute in chronological order:
 
 1. **`1_dssp.sh`** - Generate DSSP from PDB files
 2. **`2_processData.py`** - *Optional*: Process sequences with signal/transit peptides or non-identical PDB/CSV sequences
