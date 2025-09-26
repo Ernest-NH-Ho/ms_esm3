@@ -2,6 +2,7 @@
 This tool offers a protocol for estimating amino acid mutability using M-score and E-score (better option). E-score corresponds well with mega-scale mutagenesis experiment (~10,000 mutants) results.
 
 ![Figure_bgl3_MEscore](https://github.com/user-attachments/assets/b90846c6-27f9-41e8-8aa5-c43454e23fd2)
+Caption: In this figure, critical residues are highlighted in yellow. The WebLogo show the summary of the ~1300 Steptomyces bgl3 mutants with optimal activities.
 
 # Publication
 Title: One-shot structure-based mutation score based on amino acid sequence and PDB backbone coordinates
