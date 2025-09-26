@@ -1,4 +1,4 @@
-# Usage
+# Purpose
 This tool offers a protocol for estimating amino acid mutability using M-score and E-score (better option). E-score corresponds well with mega-scale mutagenesis experiment (~10,000 mutants) results.
 
 ![Figure_bgl3_MEscore](https://github.com/user-attachments/assets/b90846c6-27f9-41e8-8aa5-c43454e23fd2)
