@@ -89,9 +89,5 @@ When running `./run.sh`, the following scripts execute in chronological order:
 3. **`3_runESM3_emb.py`** - Generate de novo sequences using ESM3
 4. **`4_calcDataset.py`** - Output data analysis summary and tensors
 
-
-## Citation
-To be confirmed (TBC)
-
 ## Support
 Ngai Hei Ernest Ho: hoernesta@gmail.com
