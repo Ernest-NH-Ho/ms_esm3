@@ -7,7 +7,9 @@ Caption: In this figure, critical residues are highlighted in yellow. The WebLog
 # Publication
 Title: One-shot structure-based mutation score based on amino acid sequence and PDB backbone coordinates
 URL: https://www.sciencedirect.com/science/article/pii/S1876107025004638
-Citation: Ho, N.H.E., Ng, I.S. and Chang, J.S., 2026. One-shot Evaluation of Protein Mutability and Epistasis Score Using Structure-Based Model ESM3. Journal of the Taiwan Institute of Chemical Engineers, 179, p.106413.
+
+Citation: 
+Ho, N.H.E., Ng, I.S. and Chang, J.S., 2026. One-shot Evaluation of Protein Mutability and Epistasis Score Using Structure-Based Model ESM3. Journal of the Taiwan Institute of Chemical Engineers, 179, p.106413.
 
 ## Requirements
 
