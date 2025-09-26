@@ -1,6 +1,12 @@
-# ms_ms3
+# Usage
+This tool offers a protocol for estimating amino acid mutability using M-score and E-score (better option). E-score corresponds well with mega-scale mutagenesis experiment (~10,000 mutants) results.
 
-One-shot structure-based mutation score based on amino acid sequence and PDB backbone coordinates.
+![Figure_bgl3_MEscore](https://github.com/user-attachments/assets/b90846c6-27f9-41e8-8aa5-c43454e23fd2)
+
+# Publication
+Title: One-shot structure-based mutation score based on amino acid sequence and PDB backbone coordinates
+URL: https://www.sciencedirect.com/science/article/pii/S1876107025004638
+Citation: Ho, N.H.E., Ng, I.S. and Chang, J.S., 2026. One-shot Evaluation of Protein Mutability and Epistasis Score Using Structure-Based Model ESM3. Journal of the Taiwan Institute of Chemical Engineers, 179, p.106413.
 
 ## Requirements
 
